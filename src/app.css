@@ -130,3 +130,9 @@ a {
     margin-left: -10px;
   }
 }
+
+@media (max-width: 599px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1bviqow-MuiPaper-root-MuiCard-root {
+    width: 378px;
+  }
+}
