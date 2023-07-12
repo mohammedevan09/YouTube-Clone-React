@@ -7,7 +7,7 @@ const options = {
     maxResults: 30,
   },
   headers: {
-    'X-RapidAPI-Key': 'KJwZZIJSFimshuivMSVGaiYzkRomp15f2vKjsnK4bKzuUzVLzA',
+    'X-RapidAPI-Key': import.meta.env.VITE_REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 }
@@ -15,7 +15,7 @@ const options = {
 export const FetchFromAPI = async (url) => {
   try {
     const { data } = await axios.get(`${BASE_URL}/${url}`, options)
-    console.log(data)
+    // console.log(data)
     return data
   } catch (error) {
     console.log('Too many request')
