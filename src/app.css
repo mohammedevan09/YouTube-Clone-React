@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-color: #b39e9e #f1f1f1;
+}
+
+html:hover {
+  scrollbar-color: #c9b2b2 #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 177, 177);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #00abff !important;
+  color: white !important;
+}
+
+.category-btn:hover span {
+  color: white !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  width: 350px;
+  background: black;
+  color: white;
+}
+
+.category-btn {
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+
+.box-shadow {
+  box-shadow: 0px 5px 5px blue;
+}
+
+.MuiBox-root.css-0 {
+  margin-left: -3px;
+}
+.MuiStack-root.css-cd5d1l-MuiStack-root {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.box-shadow.css-wnmsco-MuiPaper-root {
+    width: 179px;
+    height: 22px;
+    margin-right: 127px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .MuiTypography-root.MuiTypography-h4.box-shadow.css-dawgvx-MuiTypography-root {
+    width: 195px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .MuiTypography-root.MuiTypography-h4.box-shadow.css-dawgvx-MuiTypography-root {
+    width: 98px;
+    font-size: 17px;
+    margin-left: -10px;
+  }
+}
