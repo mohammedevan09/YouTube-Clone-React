@@ -77,9 +77,12 @@ a {
 .MuiBox-root.css-0 {
   margin-left: -3px;
 }
+
 .MuiStack-root.css-cd5d1l-MuiStack-root {
   display: flex;
   justify-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .MuiCardContent-root.css-1m7nupr {
