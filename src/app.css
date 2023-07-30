@@ -82,6 +82,11 @@ a {
   justify-content: center;
 }
 
+.MuiCardContent-root.css-1m7nupr {
+    text-align: center;
+    display: flex;
+}
+
 @media screen and (max-width: 900px) {
   .category-btn {
     margin: 10px;
